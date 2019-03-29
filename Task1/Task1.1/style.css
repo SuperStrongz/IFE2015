@@ -48,3 +48,62 @@ ul li a {
 p span {
   text-decoration: line-through;
 }
+
+.test_1 {
+  margin: 0 auto;
+  background-color: red;
+  height: 50px;
+  width: 980px;
+}
+
+.test_2 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: red;
+  height: 50px;
+  width: 980px;
+}
+
+.test_2_container {
+  position: relative;
+}
+
+
+.rounded {
+  margin: 70px auto 0 auto;
+  height: 300px;
+  width: 600px;
+}
+
+.rounded-1 {
+  margin: 0 3px;
+  height: 1px;
+  background-color: black;
+}
+
+.rounded-2 {
+  height: 1px;
+  margin: 0 2px;
+  border: 1px solid black;
+  border-top: 0;
+  border-bottom: 0;
+  background-color: yellow;
+}
+
+.rounded-3 {
+  height: 1px;
+  margin: 0 1px;
+  border: 1px solid black;
+  border-top: 0;
+  border-bottom: 0;
+  background-color: yellow;
+}
+
+.rounded-content {
+  height: 288px;
+  border: 1px solid black;
+  border-top: 0;
+  border-bottom: 0;
+  background-color: yellow;
+}
