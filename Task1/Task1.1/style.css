@@ -107,3 +107,31 @@ p span {
   border-bottom: 0;
   background-color: yellow;
 }
+
+.div_1_container {
+  font-size: 0;
+}
+
+.div_1 {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  z-index: 9999;
+}
+
+.div_2 {
+  display: inline-block;
+  padding-left: 20px;
+  box-sizing: border-box;
+  width: 20%;
+  height: 20px;
+  background-color: blue;
+}
+
+.div_2_container {
+  width: 20%;
+  height: 20px;
+  background-color: aqua;
+  margin: 0 auto;
+}
