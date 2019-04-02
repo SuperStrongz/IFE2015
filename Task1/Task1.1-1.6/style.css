@@ -5,7 +5,8 @@
 
 body {
   text-align: center;
-  line-height: 1.8
+  line-height: 1.8;
+  margin: 0;
 }
 
 h1 {
@@ -24,7 +25,6 @@ p {
   text-indent: 20px;
   text-align: center;
 }
-
 
 img {
   border: 2px solid red;
@@ -69,7 +69,6 @@ p span {
   position: relative;
 }
 
-
 .rounded {
   margin: 70px auto 0 auto;
   height: 300px;
@@ -108,30 +107,38 @@ p span {
   background-color: yellow;
 }
 
-.div_1_container {
+.layout_container_one {
   font-size: 0;
 }
-
-.div_1 {
+.layout_one_left {
+  background-color: blueviolet;
   display: inline-block;
-  width: 20px;
-  height: 20px;
-  background-color: red;
-  z-index: 9999;
+  width: 100px;
+  height: 100px;
 }
-
-.div_2 {
-  display: inline-block;
-  padding-left: 20px;
-  box-sizing: border-box;
-  width: 20%;
-  height: 20px;
+.layout_one_right {
   background-color: blue;
+  display: inline-block;
+  width: 10%;
+  height: 100px;
 }
 
-.div_2_container {
-  width: 20%;
-  height: 20px;
-  background-color: aqua;
+.float_container {
   margin: 0 auto;
+  background-color: red;
+}
+.float_container:after {
+  display: block;
+  clear: both;
+  height: 0;
+  content: "";
+  visibility: hidden;
+  overflow: hidden;
+}
+.float_container div {
+  width: 300px;
+  float: left;
+  height: 200px;
+  background-color: blue;
+  margin: 10px;
 }
