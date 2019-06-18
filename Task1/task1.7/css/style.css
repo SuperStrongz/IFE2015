@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Century Gothic";
+  src: url(../../../CenturyGothic.ttf);
+}
 body {
   margin: 0;
 }
@@ -23,7 +27,6 @@ header {
 .header_content .logo {
   height: 60px;
   margin-top: 10px;
-
 }
 
 .header_content p {
@@ -44,8 +47,95 @@ header {
   bottom: 0px;
 }
 
+.banner_img {
+  position: relative;
+  height: 640px;
+  background-image: url(../img/banner-bg.jpg);
+  background-size: 1980px 640px;
+}
+
+.banner_img div {
+  position: absolute;
+  bottom: 0;
+  right: 110px;
+  display: inline-block;
+  width: 220px;
+  padding: 10px 10px 30px 10px;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.5) 75%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.banner_img div .banner_title {
+  font-size: 14px;
+  margin-bottom: 12px;
+  text-align: right;
+}
+
+.banner_img div .banner_content {
+  font-size: 12px;
+  line-height: 150%;
+}
+
+.cards_container_background {
+  width: 100%;
+  background-color: rgb(234, 234, 234);
+  padding: 10px 0 100px 0;
+}
+.cards_container {
+  width: 980px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 330px 330px 330px;
+}
+.card {
+  background-color: #fff;
+  margin-right: 10px;
+}
+.card img {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 300px;
+  height: 180px;
+}
+.card .card_content_container p {
+  font-size: 12px;
+  line-height: 170%;
+  text-indent: 24px;
+}
+.card_content_container {
+  padding: 15px 30px 25px 30px;
+}
+.introduce {
+  position: relative;
+  text-align: center;
+}
+.introduce img {
+  position: absolute;
+  left: 50%;
+  top: -50px;
+  transform: translateX(-50%);
+  width: 160px;
+  height: 160px;
+  border-radius: 80px;
+}
+.introduce_header {
+  padding-top: 160px;
+  font-size: 20px;
+  font-family: CenturyGothic;
+}
 @media (max-width: 980px) {
   .gitImg {
     display: none;
+  }
+
+  .header_content {
+    width: auto;
+  }
+  .card {
+    width: auto;
   }
 }
