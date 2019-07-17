@@ -1,0 +1,142 @@
+.main_content_left {
+  position: relative;
+}
+
+.main_picture_container {
+  margin: 45px 0 10px 0;
+  background: #fff;
+  padding: 20px;
+}
+
+.tabs_container {
+  position: absolute;
+}
+
+.tabs_container span {
+  background-color: #fff;
+  display: inline-block;
+  padding: 10px;
+  margin-right: -6px;
+  border-left: 1px solid rgb(238, 238, 238);
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.first_tip {
+  border-top: 3px solid rgb(223, 198, 230);
+}
+
+.second_tip {
+  border-top: 3px solid rgb(82, 42, 92);
+}
+
+.third_tip {
+  border-top: 3px solid rgb(89, 0, 178);
+}
+
+.fourth_tip {
+  border-top: 3px solid rgb(140, 35, 0);
+}
+
+.five_tip {
+  border-top: 3px solid rgb(217, 163, 0);
+}
+
+.tabs_container span:hover {
+  background-color: rgb(221, 221, 221);
+}
+
+.picture_fall_col_1,
+.picture_fall_col_2,
+.picture_fall_col_3,
+.picture_fall_col_4,
+.picture_fall_col_5 {
+  vertical-align: top;
+  display: inline-block;
+}
+
+.picture_fall_col_1 {
+  width: 330px;
+  display: inline-block;
+}
+
+.picture_fall_col_1_top_container img {
+  width: 330px;
+}
+
+.picture_fall_col_1_top_content {
+  background-color: rgb(82, 42, 92);
+  color: #fff;
+  padding: 15px 0 20px 10px;
+  margin-top: -5px;
+}
+
+.picture_fall_col_1_top_content_tip {
+  display: inline-block;
+  width: 25px;
+  text-align: center;
+  line-height: 25px;
+  height: 25px;
+  border-radius: 25px;
+  border: 1px solid rgb(203, 203, 203);
+  float: left;
+}
+
+.picture_fall_col_1_top_content_title,
+.picture_fall_col_1_top_content_content {
+  padding: 0 10px 0 40px;
+}
+
+.picture_fall_col_1_top_content_content {
+  font-size: 12px;
+}
+
+.picture_fall_col_4_top_container img {
+  width: 160px;
+}
+
+.picture_fall_col_4_top_container {
+  vertical-align: top;
+  width: 160px;
+  margin-top: 10px;
+}
+
+.picture_fall_col_4 {
+  margin-right: 4.7px;
+}
+
+.picture_fall_col_1_top_content_title {
+  margin-bottom: 3px;
+}
+
+.picture_fall_col_2 :first-child,
+.picture_fall_col_3 :first-child {
+  margin-top: 0 !important;
+}
+
+.color_yellow {
+  background-color: rgb(217, 163, 0);
+}
+
+.color_red {
+  background-color: rgb(140, 35, 0);
+}
+
+.color_zi {
+  background-color: rgb(89, 0, 178);
+}
+
+.read_more {
+  text-align: center;
+  width: 705px;
+  background-color: #fff;
+  height: 50px;
+  line-height: 50px;
+  color: rgb(102, 102, 102);
+  margin-bottom: 40px;
+}
+
+.read_more img {
+  width: 17px;
+  height: 12px;
+}
