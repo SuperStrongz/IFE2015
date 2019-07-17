@@ -23,10 +23,13 @@
 
 .article_container {
   background: #fff;
-  width: 705px;
   padding: 25px 25px 40px 25px;
   margin-bottom: 10px;
   position: relative;
+}
+
+.article_content {
+  margin-bottom: 10px;
 }
 
 .article_content p {
@@ -65,6 +68,7 @@
   width: 580px;
   margin: 0 auto;
   padding-bottom: 300px;
+  margin-top: 20px;
 }
 
 .article_pages_container span {
@@ -79,9 +83,146 @@
 
 .main_content_left {
   width: 705px;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .current_page {
   color: #fff;
   background-color: rgb(166, 96, 183) !important;
+}
+
+.main_content_right {
+  width: 260px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.search_container {
+  background: #fff;
+  padding: 18px 16px;
+  position: relative;
+}
+
+.search_container input {
+  height: 40px;
+  width: 215px;
+  outline: none;
+  padding: 0 55px 0 40px;
+  box-sizing: border-box;
+}
+
+.search_container img {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 20px;
+  top: 24px;
+}
+
+.search_button {
+  position: absolute;
+  width: 50px;
+  height: 40px;
+  background-color: rgb(221, 221, 221);
+  right: 29px;
+  top: 18px;
+  text-align: center;
+  color: #fff;
+  line-height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.tips_container {
+  border-bottom: 1px solid rgba(221, 221, 221);
+  margin-top: 10px;
+}
+
+.tips_container p {
+  height: 50px;
+  line-height: 50px;
+  border-left: 5px solid rgb(223, 198, 230);
+  border-top: 1px solid rgba(221, 221, 221);
+  background-color: #fff;
+  padding-left: 20px;
+  color: rgba(102, 102, 102);
+  cursor: pointer;
+}
+
+.tips_container :hover {
+  border-left: 5px solid rgb(82, 42, 92);
+}
+
+.date_contaienr {
+  background: #fff;
+  padding: 25px;
+  margin-top: 10px;
+}
+
+.date_contaienr img {
+  width: 25px;
+  height: 25px;
+}
+
+.date_header {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  color: rgb(82, 42, 92);
+}
+
+.date_content {
+  justify-content: flex-start;
+  border-bottom: 1px solid rgb(238, 238, 238);
+  padding: 10px 0;
+}
+
+.date_content span {
+  text-align: center;
+  height: 20px;
+  width: 25px;
+  display: inline-block;
+  color: rgba(102, 102, 102);
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.date_pink {
+  color: rgb(82, 42, 92) !important;
+}
+
+.date_content span:hover {
+  color: #fff !important;
+  background: rgb(119, 60, 136);
+}
+
+.tags_container {
+  background: #fff;
+  margin-top: 10px;
+  padding: 25px;
+  color: rgba(102, 102, 102);
+}
+
+.tags_title {
+  font-size: 20px;
+}
+
+.tags_container p span {
+  color: rgb(82, 42, 92);
+}
+
+.first_big {
+  font-size: 27px;
+  font-weight: 500;
+}
+
+.second_big {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.third_big {
+  font-size: 17px;
+  font-weight: 500;
 }
